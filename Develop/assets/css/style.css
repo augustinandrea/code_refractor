@@ -1,13 +1,16 @@
+/*Creating the main boxes and their borders*/
 * {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
 
+/*Main background color of website*/
 body {
     background-color: #d9dcd6;
 }
 
+/*The very top of the webpage text and background*/
 .header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -15,15 +18,18 @@ body {
     color: #ffffff;
 }
 
+/**/
 .header h1 {
     display: inline-block;
     font-size: 48px;
 }
 
+/*The small SEO section color of Horiseon*/
 .header h1 .seo {
     color: #d9dcd6;
 }
 
+/**/
 .header div {
     padding-top: 15px;
     margin-right: 20px;
@@ -33,6 +39,7 @@ body {
     font-size: 20px;
 }
 
+/*Defining the list type style*/
 .header div ul {
     list-style-type: none;
 }
@@ -47,6 +54,7 @@ a {
     text-decoration: none;
 }
 
+/*The paragraph font size*/
 p {
     font-size: 16px;
 }
@@ -61,11 +69,13 @@ p {
     background-position: center;
 }
 
+/*For when you want an image to float to the left side*/
 .float-left {
     float: left;
     margin-right: 25px;
 }
 
+/*For when you want an image to float to right side*/
 .float-right {
     float: right;
     margin-left: 25px;
@@ -75,6 +85,7 @@ p {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
+
 }
 
 /*THE BENEFITS ON THE RIGHT SIDE DESIGNS*/
@@ -89,7 +100,7 @@ p {
     background-color: #2589bd;
 }
 
-/**/
+/*All the benefit texts' color and margins*/
 .benefit-lead {
     margin-bottom: 32px;
     color: #ffffff;
@@ -105,6 +116,7 @@ p {
     color: #ffffff;
 }
 
+/**/
 .benefit-lead h3 {
     margin-bottom: 10px;
     text-align: center;
@@ -169,6 +181,7 @@ p {
     
 }
 
+/*The images for the main content section*/
 .search-engine-optimization img {
     max-height: 200px;
 }
@@ -181,6 +194,7 @@ p {
     max-height: 200px;
 }
 
+/*Sizes and margins for the text in the top menu bar*/
 .search-engine-optimization h2 {
     margin-bottom: 20px;
     font-size: 36px;
@@ -196,6 +210,7 @@ p {
     font-size: 36px;
 }
 
+/*The fancy copyright that needs to be at the bottom of a webpage*/
 .footer {
     padding: 30px;
     clear: both;
